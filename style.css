@@ -24,3 +24,16 @@ body {
 .mb-3 {
   margin-top: 2rem;
 }
+
+p {
+  width: 125px;
+  height: 125px;
+  border: solid 1px #023047;
+  background: #264653;
+  color: #edf2f4;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-right: 1.75rem;
+  top: 2.5rem;
+}
