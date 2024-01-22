@@ -30,6 +30,7 @@ document.getElementById("dequeueBtn").addEventListener("click", () => {
 document.getElementById("cls").addEventListener("click", () => {
   if (queue.length > 0) {
     queue.length = 0;
+    number.length = 0;
     alert("Queue Cleared!!!");
     updateQueueDisplay();
   } else {
